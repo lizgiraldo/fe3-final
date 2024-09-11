@@ -18,6 +18,7 @@ const Card = ({ dentist }) => {
   return (
     <div className="custom-card">
       <div className="custom-card-content">
+      <img className='imgCard' src="../../img/doctor.jpg" alt={`Imagen de ${dentist.username}`} />
         <h3 className="custom-card-title">{dentist.name}</h3>
         <p className="custom-card-username">Username: {dentist.username}</p>
       </div>

@@ -14,7 +14,7 @@ const Favs = () => {
 
   return (
     <div className={theme === 'light' ? 'light-theme container' : 'dark-theme container'}>
-      <h1 className="center-align">Dentistas Favoritos</h1>
+      <h1 className="dentista">Dentistas Favoritos</h1>
       <div className="card-grid">
         {/* Renderizamos las cards correspondientes a los favoritos */}
         {favorites.length > 0 ? (

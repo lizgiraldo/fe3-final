@@ -25,7 +25,7 @@ h1{
 
 nav{
   display: flex;
-  width: 80vw;
+  width: 100%;
   justify-content: flex-start;
   padding: 1rem;
 }
@@ -148,6 +148,16 @@ tr:nth-child(even) {
 /* Contenido de la Card */
 .custom-card-content {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgCard{
+  height: 200px;
+  width: 200px;
+  margin: 8px;
+  
 }
 
 .custom-card-title {
@@ -243,7 +253,7 @@ tr:nth-child(even) {
   color: #333;
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -254,7 +264,7 @@ tr:nth-child(even) {
   color: white;
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -477,7 +487,7 @@ h1 {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #333;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -499,8 +509,8 @@ h1 {
 
 /* Estilos para el contenedor general */
 .container {
-  max-width: 600px;
-  margin: 50px auto;
+  max-width: 100%;
+  margin: 20px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -521,7 +531,7 @@ h1 {
 }
 
 /* Estilos para el tema oscuro */
-.dark-theme {
+.dark-theme h1 {
   background-color: #333;
   color: white;
 }
@@ -533,6 +543,8 @@ h1 {
 .dark-theme .dentist-details a:hover {
   text-decoration: underline;
 }
+
+
 
 /* Estilos generales para los detalles del dentista */
 .dentist-details p {
