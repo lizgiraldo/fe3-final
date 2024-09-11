@@ -44,7 +44,7 @@ const Contact = () => {
     }
 
     setFormError('');
-    setSuccessMessage(`Gracias ${formData.fullName}, te contactaremos cuando antes vía mail.`);
+    setSuccessMessage(`Gracias ${formData.fullName}, te contactaremos cuanto antes vía mail.`);
     console.log('Datos del formulario:', formData);
 
     setFormData({
@@ -87,10 +87,14 @@ const Contact = () => {
         <button type="submit" className="btn">
           Enviar
         </button>
+        {successMessage && <p className="success-message">{successMessage}</p>}
       </form>
-
-      {successMessage && <p className="success-message">{successMessage}</p>}
+    
+      
     </div>
+      
+    
+    
   );
 };
 
