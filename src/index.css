@@ -23,6 +23,10 @@ h1{
   text-align: center;
 }
 
+.Mensaje{
+  text-align: center;
+  color:#ec8f63
+}
 nav{
   display: flex;
   width: 100%;
@@ -42,23 +46,43 @@ a:hover{
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   padding: 2rem;
+  flex-wrap: wrap;
   position: relative;
-  bottom: 0;
-  width: 90%;
+  bottom: 5;
+  width: 100%;
   height: 40px;
   margin-top: 2rem;
+  background-color: #e9ecef;
+  transition: background-color 0.5s ease;
 }
 
 footer > img{
   width: 200px;
-  margin: 0;
+  margin: 5;
 }
 footer > p{
   margin: 0;
   padding-top: 0.7rem;
+}
+footer .footerInicial img{
+  width: 150px;
+}
+
+footer .footerIconos {
+  display: flex;
+  flex-direction: row;
+  flex-grow: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .footerIconos img{
+  width: 20px;
+  height: 20px;
+  filter: invert(70%) brightness(100%);
 }
 
 form{
@@ -268,6 +292,7 @@ tr:nth-child(even) {
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Estilos para la lista de enlaces */
 ul {
@@ -547,6 +572,7 @@ h1 {
 .dark-theme .dentist-details a:hover {
   text-decoration: underline;
 }
+
 
 
 

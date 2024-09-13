@@ -7,6 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className={theme === 'light' ? 'navbar-light' : 'navbar-dark'}>
+      <h2>Clinica-Lizeth-Gladys</h2>
       <ul>
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/contact">Contacto</Link></li>
