@@ -69,6 +69,7 @@ footer > p{
 }
 footer .footerInicial img{
   width: 150px;
+  filter: invert(10%) brightness(100%);
 }
 
 footer .footerIconos {
@@ -83,7 +84,7 @@ footer .footerIconos {
 footer .footerIconos img{
   width: 20px;
   height: 20px;
-  filter: invert(70%) brightness(100%);
+  filter: invert(50%) brightness(100%);
 }
 
 form{
@@ -111,6 +112,9 @@ form{
   color: #fff;
   align-content: center;
   
+}
+.footer-dark .footerInicial img {
+  filter: invert(100%) brightness(100%);
 }
 
 .footerIconos img {

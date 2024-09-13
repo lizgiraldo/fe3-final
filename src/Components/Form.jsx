@@ -65,6 +65,7 @@ const Form = () => {
         
         <div className="input-field">
           
+          
           <label htmlFor="fullName">Nombre Completo</label>
           <input
             type="text"
